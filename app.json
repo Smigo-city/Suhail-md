@@ -1,6 +1,6 @@
 {
-  "name": "suhail-md",
-  "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
+  "name": "Palccod-md",
+  "description": "I am Palccod-Md Whatsapp User Bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
@@ -8,8 +8,8 @@
   
   "env": {
     "OWNER_NAME": {
-      "description": "Name of Bot Owner",    
-      "value": "Suhail Tech Info",
+      "description": "Name of the bot admin",    
+      "value": "Palccod",
       "required" :true
     },   
     "HEROKU_API_KEY": {
@@ -25,7 +25,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
-      "value": "unavailable"
+      "value": "composing"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -53,7 +53,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "255694242611"
     },
     "SESSION_ID": {
       "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot",
@@ -62,17 +62,17 @@
     },
     "OPENAI_API_KEY": {
       "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-      "value": "",
+      "value": "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",
       "required" :false
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Get it from https://elevenlabs.io/ ",
-      "value": "",
+      "value": "4ee1d12caa68b0da1864d272ab303b55",
       "required" :false
     }, 
     "REMOVE_BG_KEY": {
       "description": "Please put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "",
+      "value": "jJXVQzBpMf1xM2R4ej5yKE66",
       "required" :false
     },
     "MODE": {
@@ -81,12 +81,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "Palccod-Md",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "wahtsapp bot",
+      "value": "Palccod 🎭",
       "required": false 
     }
   }, 
