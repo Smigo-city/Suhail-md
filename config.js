@@ -9,7 +9,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Palccod:Palccod-suhail@cluster0.zcbsrxq.mongodb.net/?retryWrites=true&w=majority"
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
@@ -49,7 +49,7 @@ module.exports = {
  
   author: process.env.PACK_AUTHER || "Pal.cod-MD",
   packname: process.env.PACK_NAME || "🎭</Palccod>🎭",
-  botname : process.env.BOT_NAME  || "P.cod-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "Palccod-ᴍᴅ",
   ownername:process.env.OWNER_NAME|| "Palccod",
 
 
